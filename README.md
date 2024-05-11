@@ -28,9 +28,9 @@ with TidierPlots.jl was the whole goal.
 
 ###### installing
 
-I used Pkg.develop instead of Pkg.add. FYI this is entirely experimental
+FYI this is entirely experimental
 for my own fun.
-Pkg.develop(PackageSpec(“www.github.com/frankiethull/AlbumCoverColors.jl”))
+Pkg.add(url="https://github.com/frankiethull/AlbumCoverColors.jl")
 
 ``` {julia}
 using ColorSchemes
